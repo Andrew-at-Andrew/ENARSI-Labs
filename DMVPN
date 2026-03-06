@@ -1,4 +1,4 @@
-#DMVPN over IPSec
+# DMVPN over IPSec
 Dynamic Multipoint Virtual Private Network, or DMVPN, is a technology that allows you to dynamically form tunnels between branch locations.
 
 DMVPN follows a client-server model, where the "Hub" is the server and the "Spokes" are the clients. The NHS learns mappings dynamically from spokes, which is stored in the NHRP cache. Clients register with the Next Hop Server (NHS) via static mapping.  once the clients are registered, they will learn the next-hop information (tunnel & underlay IPs) of the other spokes, which are required to form tunnels. 
